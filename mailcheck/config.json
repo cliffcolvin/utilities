@@ -1,0 +1,13 @@
+{
+    "smtpServer": "smtp.gmail.com",
+    "imapServer": "imap.gmail.com",
+    "emailAddress": "",
+    "emailPassword": "",
+    "messageContains": "exampleNewDomain.com",
+    "messageTemplate": "{email_address}, we are checking to see that you have setup email deprecation autoresponder. \nIf you don't you'll get this message tomorrow as well. \nFollow this link <insertdocslinkhere> to learn how to set this up if you have questions, \nor reach out to <adminAddress>",
+    "messageSubject": "Email Deprecation Autoresponder Check",
+    "usersToCheck": [
+        "user1@example.com",
+        "user2@example.com"
+    ]
+} 
